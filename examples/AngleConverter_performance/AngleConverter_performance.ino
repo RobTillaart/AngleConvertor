@@ -9,7 +9,7 @@
 
 #include "AngleConvertor.h"
 
-AngleConvertor AC;
+AngleConvertor conv;
 
 uint32_t start, stop;
 volatile float x;
@@ -25,8 +25,8 @@ void setup()
   delay(10);
 
   start = micros();
-  AC.setDegrees(1.2345);
-  x = AC.getTurn();
+  conv.setDegrees(1.2345);
+  x = conv.getTurn();
   stop = micros();
 
   Serial.print("TIME: \t");
