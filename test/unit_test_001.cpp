@@ -49,67 +49,67 @@ unittest_teardown()
 
 unittest(test_conversions)
 {
-  AngleConvertor AC;
+  AngleConvertor conv;
 
-  AC.setDegrees(1.0);
-  AsserEqualFloat(1.0, AC. getDegrees(), 0.00001);
+  conv.setDegrees(1.0);
+  AsserEqualFloat(1.0, conv. getDegrees(), 0.00001);
 
-  AC.setRadians(1.0);
-  AsserEqualFloat(1.0, AC. getRadians(), 0.00001);
+  conv.setRadians(1.0);
+  AsserEqualFloat(1.0, conv. getRadians(), 0.00001);
 
-  AC.setGradians(1.0);
-  AsserEqualFloat(1.0, AC. getGradians(), 0.00001);
+  conv.setGradians(1.0);
+  AsserEqualFloat(1.0, conv. getGradians(), 0.00001);
 
-  AC.setAngularMil(1.0);
-  AsserEqualFloat(1.0, AC. getAngularMil(), 0.00001);
+  conv.setAngularMil(1.0);
+  AsserEqualFloat(1.0, conv. getAngularMil(), 0.00001);
 
-  AC.setBinaryRadians(1.0);
-  AsserEqualFloat(1.0, AC. getBinaryRadians(), 0.00001);
+  conv.setBinaryRadians(1.0);
+  AsserEqualFloat(1.0, conv. getBinaryRadians(), 0.00001);
 
-  AC.setCentiTurn(1.0);
-  AsserEqualFloat(1.0, AC. getCentiTurn(), 0.00001);
+  conv.setCentiTurn(1.0);
+  AsserEqualFloat(1.0, conv. getCentiTurn(), 0.00001);
 
-  AC.setDiameterPart(1.0);
-  AsserEqualFloat(1.0, AC. getDiameterPart(), 0.00001);
+  conv.setDiameterPart(1.0);
+  AsserEqualFloat(1.0, conv. getDiameterPart(), 0.00001);
 
-  AC.setHexacontade(1.0);
-  AsserEqualFloat(1.0, AC. getHexacontade(), 0.00001);
+  conv.setHexacontade(1.0);
+  AsserEqualFloat(1.0, conv. getHexacontade(), 0.00001);
 
-  AC.setHourAngle(1.0);
-  AsserEqualFloat(1.0, AC. getHourAngle(), 0.00001);
+  conv.setHourAngle(1.0);
+  AsserEqualFloat(1.0, conv. getHourAngle(), 0.00001);
 
-  AC.setMilliTurn(1.0);
-  AsserEqualFloat(1.0, AC. getMilliTurn(), 0.00001);
+  conv.setMilliTurn(1.0);
+  AsserEqualFloat(1.0, conv. getMilliTurn(), 0.00001);
 
-  AC.setMinuteTime(1.0);
-  AsserEqualFloat(1.0, AC. getMinuteTime(), 0.00001);
+  conv.setMinuteTime(1.0);
+  AsserEqualFloat(1.0, conv. getMinuteTime(), 0.00001);
 
-  AC.setOctant(1.0);
-  AsserEqualFloat(1.0, AC. getOctant(), 0.00001);
+  conv.setOctant(1.0);
+  AsserEqualFloat(1.0, conv. getOctant(), 0.00001);
 
-  AC.setPechus(1.0);
-  AsserEqualFloat(1.0, AC. getPechus(), 0.00001);
+  conv.setPechus(1.0);
+  AsserEqualFloat(1.0, conv. getPechus(), 0.00001);
 
-  AC.setPoints(1.0);
-  AsserEqualFloat(1.0, AC. getPoints(), 0.00001);
+  conv.setPoints(1.0);
+  AsserEqualFloat(1.0, conv. getPoints(), 0.00001);
 
-  AC.setQuadrant(1.0);
-  AsserEqualFloat(1.0, AC. getQuadrant(), 0.00001);
+  conv.setQuadrant(1.0);
+  AsserEqualFloat(1.0, conv. getQuadrant(), 0.00001);
 
-  AC.setQuarterPoint(1.0);
-  AsserEqualFloat(1.0, AC. getQuarterPoint(), 0.00001);
+  conv.setQuarterPoint(1.0);
+  AsserEqualFloat(1.0, conv. getQuarterPoint(), 0.00001);
 
-  AC.setSecondsTime(1.0);
-  AsserEqualFloat(1.0, AC. getSecondsTime(), 0.00001);
+  conv.setSecondsTime(1.0);
+  AsserEqualFloat(1.0, conv. getSecondsTime(), 0.00001);
 
-  AC.setSextant(1.0);
-  AsserEqualFloat(1.0, AC. getSextant(), 0.00001);
+  conv.setSextant(1.0);
+  AsserEqualFloat(1.0, conv. getSextant(), 0.00001);
 
-  AC.setSign(1.0);
-  AsserEqualFloat(1.0, AC. getSign(), 0.00001);
+  conv.setSign(1.0);
+  AsserEqualFloat(1.0, conv. getSign(), 0.00001);
 
-  AC.setTurn(1.0);
-  AsserEqualFloat(1.0, AC. getTurn(), 0.00001);
+  conv.setTurn(1.0);
+  AsserEqualFloat(1.0, conv. getTurn(), 0.00001);
 }
 
 
