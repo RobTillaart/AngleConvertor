@@ -118,6 +118,7 @@ See examples.
 
 
 #### could
+- add dedicated functions == faster (on request only).
 - add more conversions
 - integrate with **Angle class** ?
   - printing can be a lot of work

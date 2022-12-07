@@ -14,7 +14,6 @@
 #define ANGLECONVERTOR_LIB_VERSION        (F("0.1.0"))
 
 
-
 /////////////////////////////////////////////////////////////
 //
 //  ANGLE CONVERTER CLASS
