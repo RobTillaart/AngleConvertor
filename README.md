@@ -30,7 +30,7 @@ can gain extra precision.
 |  name           |  full circle  |  notes  |
 |:----------------|--------------:|:--------|
 |  Degrees        |          360  |
-|  Radians        |         2 PI  |
+|  Radians        |         2 PI  |  2PI is aka MU
 |  Gradians       |          400  |
 |  AngularMil     |         6400  |
 |  BinaryRadians  |          256  |
@@ -38,6 +38,7 @@ can gain extra precision.
 |  DiameterPart   |          120  |
 |  Hexacontade    |           60  |
 |  HourAngle      |           24  |
+|  MilliRadians   |      2000 PI  |
 |  MilliTurn      |         1000  |
 |  MinuteTime     |         1440  |
 |  Octant         |            8  |
